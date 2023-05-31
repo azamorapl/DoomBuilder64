@@ -86,6 +86,7 @@ namespace CodeImp.DoomBuilder
 
         // villsa
         private List<uint> hashkeys;
+        private List<uint> hashoriginalkeys;
         private List<string> hashkeynames;
 
         // Disposing
@@ -97,6 +98,8 @@ namespace CodeImp.DoomBuilder
 
         // villsa
         public List<uint> TextureHashKey { get { return hashkeys; } }
+
+        public List<uint> TextureHashOriginalKey { get { return hashoriginalkeys; } }
         public List<string> TextureHashName { get { return hashkeynames; } }
 
         public string FilePathName { get { return filepathname; } }
@@ -150,6 +153,7 @@ namespace CodeImp.DoomBuilder
 
             // villsa
             hashkeys = new List<uint>();
+            hashoriginalkeys = new List<uint>();
             hashkeynames = new List<string>();
         }
 

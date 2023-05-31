@@ -977,7 +977,7 @@ namespace CodeImp.DoomBuilder.IO
                 {
                     if (ht == General.Map.TextureHashName[i])
                     {
-                        top = (int)General.Map.TextureHashKey[i];
+                        top = (int)General.Map.TextureHashOriginalKey[i];
                         break;
                     }
                 }
@@ -986,7 +986,7 @@ namespace CodeImp.DoomBuilder.IO
                 {
                     if (lt == General.Map.TextureHashName[i])
                     {
-                        low = (int)General.Map.TextureHashKey[i];
+                        low = (int)General.Map.TextureHashOriginalKey[i];
                         break;
                     }
                 }
@@ -995,7 +995,7 @@ namespace CodeImp.DoomBuilder.IO
                 {
                     if (mt == General.Map.TextureHashName[i])
                     {
-                        mid = (int)General.Map.TextureHashKey[i];
+                        mid = (int)General.Map.TextureHashOriginalKey[i];
                         break;
                     }
                 }
@@ -1113,7 +1113,7 @@ namespace CodeImp.DoomBuilder.IO
                 {
                     if (ft == General.Map.TextureHashName[i])
                     {
-                        flr = (int)General.Map.TextureHashKey[i];
+                        flr = (int)General.Map.TextureHashOriginalKey[i];
                         break;
                     }
                 }
@@ -1122,7 +1122,7 @@ namespace CodeImp.DoomBuilder.IO
                 {
                     if (ct == General.Map.TextureHashName[i])
                     {
-                        ceil = (int)General.Map.TextureHashKey[i];
+                        ceil = (int)General.Map.TextureHashOriginalKey[i];
                         break;
                     }
                 }

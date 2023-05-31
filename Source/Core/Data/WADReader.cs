@@ -474,6 +474,8 @@ namespace CodeImp.DoomBuilder.Data
                     // villsa
                     hash = HashTextureName(file.Lumps[i].Name);
                     General.Map.TextureHashKey.Add(hash);
+                    hash = (uint)(i - startindex - 1);
+                    General.Map.TextureHashOriginalKey.Add(hash);
                     General.Map.TextureHashName.Add(file.Lumps[i].Name);
                 }
                 else
